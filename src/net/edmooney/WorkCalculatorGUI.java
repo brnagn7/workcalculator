@@ -1,3 +1,5 @@
+package net.edmooney;
+
 import javax.swing.*;
 import javax.swing.border.*;
 import java.awt.*;
@@ -5,7 +7,7 @@ import java.awt.event.*;
 import java.text.DecimalFormat;
 
 public class WorkCalculatorGUI extends JFrame {
-    private final double normalRate = 25.0;
+    private final double normalRate = 26.25;
     private final double overtimeRate = 37.50;
     private final int normalHoursLimit = 40;
 
